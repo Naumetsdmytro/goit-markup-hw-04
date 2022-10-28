@@ -501,8 +501,9 @@ img {
 .team-list-icon {
     display: flex;
     text-align: center;
-    margin-right: -10px;
-    padding: 16px 32px 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top: 16px;
 }
 
 .link-icon-list {
@@ -520,7 +521,7 @@ img {
     fill: currentColor;
 }
 
-.item-icon {
+.item-icon:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -541,7 +542,6 @@ img {
 
 .list-client {
     display: flex;
-    margin-right: -30px;
 }
 
 .link-client {
@@ -571,7 +571,7 @@ img {
     fill: currentColor;
 }
 
-.list-client-item {
+.list-client-item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -596,7 +596,6 @@ img {
 
 .list-icon-footer {
     display: flex;
-    margin-right: -10px;
 }
 
 .link-icon-footer {
@@ -619,6 +618,6 @@ img {
     fill: currentColor;
 }
 
-.item-icon-footer {
+.item-icon-footer:not(:last-child) {
     margin-right: 10px;
 }
